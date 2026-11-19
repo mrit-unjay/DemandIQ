@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 DB = DATA / "voltas_dw.db"
 
-st.set_page_config(page_title="Voltas Sales & Demand Intelligence", page_icon="❄️", layout="wide")
+st.set_page_config(page_title="DemandIQ : Sales & Demand Intelligence", page_icon="❄️", layout="wide")
 
 
 # ------------------------------------------------------------------ data
@@ -77,7 +77,7 @@ fy, fp = f[f.year == year], f[f.year == year - 1]
 ft = tgt[tgt.region.isin(regions) & tgt.category.isin(cats)]
 fty = ft[ft.month.dt.year == year]
 
-st.title(" Sales, Channel & Demand Intelligence")
+st.title(" DemandIQ :Sales, Channel & Demand Intelligence")
 tab1, tab2, tab3, tab4 = st.tabs(["📊 Executive Overview", "🤝 Channel Performance",
                                   "📈 Seasonality & Forecast", "📦 Inventory Planning"])
 
