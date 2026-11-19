@@ -1,0 +1,73 @@
+category,month_num,seasonality_index
+Air Cooler,1,0.142
+Air Cooler,2,0.422
+Air Cooler,3,1.659
+Air Cooler,4,3.001
+Air Cooler,5,3.119
+Air Cooler,6,1.926
+Air Cooler,7,0.528
+Air Cooler,8,0.305
+Air Cooler,9,0.308
+Air Cooler,10,0.273
+Air Cooler,11,0.18
+Air Cooler,12,0.136
+Refrigerator,1,0.744
+Refrigerator,2,0.769
+Refrigerator,3,1.023
+Refrigerator,4,1.184
+Refrigerator,5,1.207
+Refrigerator,6,1.022
+Refrigerator,7,0.818
+Refrigerator,8,0.866
+Refrigerator,9,0.9
+Refrigerator,10,1.303
+Refrigerator,11,1.273
+Refrigerator,12,0.89
+Split AC,1,0.303
+Split AC,2,0.515
+Split AC,3,1.207
+Split AC,4,2.175
+Split AC,5,2.545
+Split AC,6,1.85
+Split AC,7,0.766
+Split AC,8,0.541
+Split AC,9,0.516
+Split AC,10,0.638
+Split AC,11,0.547
+Split AC,12,0.398
+Washing Machine,1,0.827
+Washing Machine,2,0.806
+Washing Machine,3,0.828
+Washing Machine,4,0.956
+Washing Machine,5,0.969
+Washing Machine,6,0.867
+Washing Machine,7,0.918
+Washing Machine,8,0.975
+Washing Machine,9,1.086
+Washing Machine,10,1.365
+Washing Machine,11,1.355
+Washing Machine,12,1.049
+Water Dispenser,1,0.489
+Water Dispenser,2,0.715
+Water Dispenser,3,1.127
+Water Dispenser,4,1.463
+Water Dispenser,5,1.698
+Water Dispenser,6,1.371
+Water Dispenser,7,0.978
+Water Dispenser,8,0.843
+Water Dispenser,9,0.818
+Water Dispenser,10,1.012
+Water Dispenser,11,0.852
+Water Dispenser,12,0.633
+Window AC,1,0.242
+Window AC,2,0.527
+Window AC,3,1.251
+Window AC,4,2.347
+Window AC,5,2.673
+Window AC,6,1.773
+Window AC,7,0.795
+Window AC,8,0.538
+Window AC,9,0.544
+Window AC,10,0.556
+Window AC,11,0.401
+Window AC,12,0.351

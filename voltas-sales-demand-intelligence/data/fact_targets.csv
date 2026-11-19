@@ -1,0 +1,864 @@
+month,region,category,target_revenue
+2023-01-01,East,Air Cooler,262000.0
+2023-01-01,East,Refrigerator,1497000.0
+2023-01-01,East,Split AC,1813000.0
+2023-01-01,East,Washing Machine,868000.0
+2023-01-01,East,Water Dispenser,75000.0
+2023-01-01,East,Window AC,324000.0
+2023-01-01,North,Air Cooler,19000.0
+2023-01-01,North,Refrigerator,1997000.0
+2023-01-01,North,Split AC,2349000.0
+2023-01-01,North,Washing Machine,2227000.0
+2023-01-01,North,Water Dispenser,144000.0
+2023-01-01,North,Window AC,161000.0
+2023-01-01,South,Air Cooler,705000.0
+2023-01-01,South,Refrigerator,2687000.0
+2023-01-01,South,Split AC,4262000.0
+2023-01-01,South,Washing Machine,1424000.0
+2023-01-01,South,Water Dispenser,199000.0
+2023-01-01,South,Window AC,634000.0
+2023-01-01,West,Air Cooler,116000.0
+2023-01-01,West,Refrigerator,1773000.0
+2023-01-01,West,Split AC,1782000.0
+2023-01-01,West,Washing Machine,1372000.0
+2023-01-01,West,Water Dispenser,162000.0
+2023-01-01,West,Window AC,460000.0
+2023-02-01,East,Air Cooler,651000.0
+2023-02-01,East,Refrigerator,1138000.0
+2023-02-01,East,Split AC,2662000.0
+2023-02-01,East,Washing Machine,911000.0
+2023-02-01,East,Water Dispenser,95000.0
+2023-02-01,East,Window AC,593000.0
+2023-02-01,North,Air Cooler,692000.0
+2023-02-01,North,Refrigerator,2916000.0
+2023-02-01,North,Split AC,4090000.0
+2023-02-01,North,Washing Machine,1707000.0
+2023-02-01,North,Water Dispenser,229000.0
+2023-02-01,North,Window AC,673000.0
+2023-02-01,South,Air Cooler,1182000.0
+2023-02-01,South,Refrigerator,2250000.0
+2023-02-01,South,Split AC,6243000.0
+2023-02-01,South,Washing Machine,1601000.0
+2023-02-01,South,Water Dispenser,240000.0
+2023-02-01,South,Window AC,848000.0
+2023-02-01,West,Air Cooler,910000.0
+2023-02-01,West,Refrigerator,2780000.0
+2023-02-01,West,Split AC,5220000.0
+2023-02-01,West,Washing Machine,1753000.0
+2023-02-01,West,Water Dispenser,225000.0
+2023-02-01,West,Window AC,784000.0
+2023-03-01,East,Air Cooler,1829000.0
+2023-03-01,East,Refrigerator,1536000.0
+2023-03-01,East,Split AC,6864000.0
+2023-03-01,East,Washing Machine,836000.0
+2023-03-01,East,Water Dispenser,169000.0
+2023-03-01,East,Window AC,1243000.0
+2023-03-01,North,Air Cooler,4893000.0
+2023-03-01,North,Refrigerator,4004000.0
+2023-03-01,North,Split AC,16827000.0
+2023-03-01,North,Washing Machine,1711000.0
+2023-03-01,North,Water Dispenser,376000.0
+2023-03-01,North,Window AC,2540000.0
+2023-03-01,South,Air Cooler,3580000.0
+2023-03-01,South,Refrigerator,2976000.0
+2023-03-01,South,Split AC,10619000.0
+2023-03-01,South,Washing Machine,1670000.0
+2023-03-01,South,Water Dispenser,400000.0
+2023-03-01,South,Window AC,2199000.0
+2023-03-01,West,Air Cooler,4033000.0
+2023-03-01,West,Refrigerator,2941000.0
+2023-03-01,West,Split AC,13074000.0
+2023-03-01,West,Washing Machine,1605000.0
+2023-03-01,West,Water Dispenser,552000.0
+2023-03-01,West,Window AC,2373000.0
+2023-04-01,East,Air Cooler,3736000.0
+2023-04-01,East,Refrigerator,1892000.0
+2023-04-01,East,Split AC,12234000.0
+2023-04-01,East,Washing Machine,1222000.0
+2023-04-01,East,Water Dispenser,236000.0
+2023-04-01,East,Window AC,2184000.0
+2023-04-01,North,Air Cooler,8559000.0
+2023-04-01,North,Refrigerator,4454000.0
+2023-04-01,North,Split AC,28076000.0
+2023-04-01,North,Washing Machine,1780000.0
+2023-04-01,North,Water Dispenser,646000.0
+2023-04-01,North,Window AC,4597000.0
+2023-04-01,South,Air Cooler,5587000.0
+2023-04-01,South,Refrigerator,2863000.0
+2023-04-01,South,Split AC,17083000.0
+2023-04-01,South,Washing Machine,1479000.0
+2023-04-01,South,Water Dispenser,409000.0
+2023-04-01,South,Window AC,2812000.0
+2023-04-01,West,Air Cooler,7214000.0
+2023-04-01,West,Refrigerator,3333000.0
+2023-04-01,West,Split AC,25640000.0
+2023-04-01,West,Washing Machine,1628000.0
+2023-04-01,West,Water Dispenser,592000.0
+2023-04-01,West,Window AC,4459000.0
+2023-05-01,East,Air Cooler,3058000.0
+2023-05-01,East,Refrigerator,2100000.0
+2023-05-01,East,Split AC,14727000.0
+2023-05-01,East,Washing Machine,1236000.0
+2023-05-01,East,Water Dispenser,337000.0
+2023-05-01,East,Window AC,2784000.0
+2023-05-01,North,Air Cooler,8266000.0
+2023-05-01,North,Refrigerator,3750000.0
+2023-05-01,North,Split AC,30979000.0
+2023-05-01,North,Washing Machine,2021000.0
+2023-05-01,North,Water Dispenser,806000.0
+2023-05-01,North,Window AC,4749000.0
+2023-05-01,South,Air Cooler,5324000.0
+2023-05-01,South,Refrigerator,2834000.0
+2023-05-01,South,Split AC,20493000.0
+2023-05-01,South,Washing Machine,1656000.0
+2023-05-01,South,Water Dispenser,504000.0
+2023-05-01,South,Window AC,3846000.0
+2023-05-01,West,Air Cooler,7315000.0
+2023-05-01,West,Refrigerator,3854000.0
+2023-05-01,West,Split AC,29317000.0
+2023-05-01,West,Washing Machine,2271000.0
+2023-05-01,West,Water Dispenser,735000.0
+2023-05-01,West,Window AC,6197000.0
+2023-06-01,East,Air Cooler,2461000.0
+2023-06-01,East,Refrigerator,1994000.0
+2023-06-01,East,Split AC,9784000.0
+2023-06-01,East,Washing Machine,1045000.0
+2023-06-01,East,Water Dispenser,375000.0
+2023-06-01,East,Window AC,1437000.0
+2023-06-01,North,Air Cooler,4962000.0
+2023-06-01,North,Refrigerator,4183000.0
+2023-06-01,North,Split AC,22614000.0
+2023-06-01,North,Washing Machine,1995000.0
+2023-06-01,North,Water Dispenser,651000.0
+2023-06-01,North,Window AC,3573000.0
+2023-06-01,South,Air Cooler,3878000.0
+2023-06-01,South,Refrigerator,2470000.0
+2023-06-01,South,Split AC,14645000.0
+2023-06-01,South,Washing Machine,1874000.0
+2023-06-01,South,Water Dispenser,331000.0
+2023-06-01,South,Window AC,2633000.0
+2023-06-01,West,Air Cooler,3851000.0
+2023-06-01,West,Refrigerator,3233000.0
+2023-06-01,West,Split AC,22492000.0
+2023-06-01,West,Washing Machine,2008000.0
+2023-06-01,West,Water Dispenser,495000.0
+2023-06-01,West,Window AC,3826000.0
+2023-07-01,East,Air Cooler,844000.0
+2023-07-01,East,Refrigerator,1769000.0
+2023-07-01,East,Split AC,4776000.0
+2023-07-01,East,Washing Machine,1103000.0
+2023-07-01,East,Water Dispenser,266000.0
+2023-07-01,East,Window AC,883000.0
+2023-07-01,North,Air Cooler,1030000.0
+2023-07-01,North,Refrigerator,2329000.0
+2023-07-01,North,Split AC,7764000.0
+2023-07-01,North,Washing Machine,1808000.0
+2023-07-01,North,Water Dispenser,296000.0
+2023-07-01,North,Window AC,1458000.0
+2023-07-01,South,Air Cooler,1225000.0
+2023-07-01,South,Refrigerator,2600000.0
+2023-07-01,South,Split AC,8579000.0
+2023-07-01,South,Washing Machine,1705000.0
+2023-07-01,South,Water Dispenser,379000.0
+2023-07-01,South,Window AC,1120000.0
+2023-07-01,West,Air Cooler,1134000.0
+2023-07-01,West,Refrigerator,2278000.0
+2023-07-01,West,Split AC,6716000.0
+2023-07-01,West,Washing Machine,1928000.0
+2023-07-01,West,Water Dispenser,335000.0
+2023-07-01,West,Window AC,1306000.0
+2023-08-01,East,Air Cooler,457000.0
+2023-08-01,East,Refrigerator,1333000.0
+2023-08-01,East,Split AC,3534000.0
+2023-08-01,East,Washing Machine,1144000.0
+2023-08-01,East,Water Dispenser,193000.0
+2023-08-01,East,Window AC,554000.0
+2023-08-01,North,Air Cooler,264000.0
+2023-08-01,North,Refrigerator,2430000.0
+2023-08-01,North,Split AC,5354000.0
+2023-08-01,North,Washing Machine,2331000.0
+2023-08-01,North,Water Dispenser,251000.0
+2023-08-01,North,Window AC,708000.0
+2023-08-01,South,Air Cooler,876000.0
+2023-08-01,South,Refrigerator,2445000.0
+2023-08-01,South,Split AC,5306000.0
+2023-08-01,South,Washing Machine,2189000.0
+2023-08-01,South,Water Dispenser,300000.0
+2023-08-01,South,Window AC,1127000.0
+2023-08-01,West,Air Cooler,489000.0
+2023-08-01,West,Refrigerator,2826000.0
+2023-08-01,West,Split AC,6125000.0
+2023-08-01,West,Washing Machine,1793000.0
+2023-08-01,West,Water Dispenser,349000.0
+2023-08-01,West,Window AC,928000.0
+2023-09-01,East,Air Cooler,445000.0
+2023-09-01,East,Refrigerator,2474000.0
+2023-09-01,East,Split AC,3123000.0
+2023-09-01,East,Washing Machine,934000.0
+2023-09-01,East,Water Dispenser,108000.0
+2023-09-01,East,Window AC,793000.0
+2023-09-01,North,Air Cooler,264000.0
+2023-09-01,North,Refrigerator,2621000.0
+2023-09-01,North,Split AC,4766000.0
+2023-09-01,North,Washing Machine,2410000.0
+2023-09-01,North,Water Dispenser,415000.0
+2023-09-01,North,Window AC,841000.0
+2023-09-01,South,Air Cooler,1255000.0
+2023-09-01,South,Refrigerator,3218000.0
+2023-09-01,South,Split AC,6046000.0
+2023-09-01,South,Washing Machine,2075000.0
+2023-09-01,South,Water Dispenser,278000.0
+2023-09-01,South,Window AC,1175000.0
+2023-09-01,West,Air Cooler,608000.0
+2023-09-01,West,Refrigerator,2698000.0
+2023-09-01,West,Split AC,4722000.0
+2023-09-01,West,Washing Machine,2237000.0
+2023-09-01,West,Water Dispenser,226000.0
+2023-09-01,West,Window AC,624000.0
+2023-10-01,East,Air Cooler,370000.0
+2023-10-01,East,Refrigerator,2222000.0
+2023-10-01,East,Split AC,4189000.0
+2023-10-01,East,Washing Machine,1318000.0
+2023-10-01,East,Water Dispenser,212000.0
+2023-10-01,East,Window AC,857000.0
+2023-10-01,North,Air Cooler,156000.0
+2023-10-01,North,Refrigerator,4506000.0
+2023-10-01,North,Split AC,5605000.0
+2023-10-01,North,Washing Machine,3266000.0
+2023-10-01,North,Water Dispenser,391000.0
+2023-10-01,North,Window AC,860000.0
+2023-10-01,South,Air Cooler,1108000.0
+2023-10-01,South,Refrigerator,3782000.0
+2023-10-01,South,Split AC,7152000.0
+2023-10-01,South,Washing Machine,2399000.0
+2023-10-01,South,Water Dispenser,365000.0
+2023-10-01,South,Window AC,1356000.0
+2023-10-01,West,Air Cooler,456000.0
+2023-10-01,West,Refrigerator,4260000.0
+2023-10-01,West,Split AC,5821000.0
+2023-10-01,West,Washing Machine,2828000.0
+2023-10-01,West,Water Dispenser,307000.0
+2023-10-01,West,Window AC,1018000.0
+2023-11-01,East,Air Cooler,300000.0
+2023-11-01,East,Refrigerator,2001000.0
+2023-11-01,East,Split AC,3852000.0
+2023-11-01,East,Washing Machine,1325000.0
+2023-11-01,East,Water Dispenser,185000.0
+2023-11-01,East,Window AC,366000.0
+2023-11-01,North,Air Cooler,37000.0
+2023-11-01,North,Refrigerator,4812000.0
+2023-11-01,North,Split AC,5585000.0
+2023-11-01,North,Washing Machine,3194000.0
+2023-11-01,North,Water Dispenser,284000.0
+2023-11-01,North,Window AC,553000.0
+2023-11-01,South,Air Cooler,988000.0
+2023-11-01,South,Refrigerator,3367000.0
+2023-11-01,South,Split AC,7278000.0
+2023-11-01,South,Washing Machine,2239000.0
+2023-11-01,South,Water Dispenser,344000.0
+2023-11-01,South,Window AC,1098000.0
+2023-11-01,West,Air Cooler,234000.0
+2023-11-01,West,Refrigerator,3889000.0
+2023-11-01,West,Split AC,5991000.0
+2023-11-01,West,Washing Machine,2481000.0
+2023-11-01,West,Water Dispenser,325000.0
+2023-11-01,West,Window AC,894000.0
+2023-12-01,East,Air Cooler,222000.0
+2023-12-01,East,Refrigerator,1496000.0
+2023-12-01,East,Split AC,2663000.0
+2023-12-01,East,Washing Machine,1056000.0
+2023-12-01,East,Water Dispenser,190000.0
+2023-12-01,East,Window AC,595000.0
+2023-12-01,North,Air Cooler,35000.0
+2023-12-01,North,Refrigerator,2799000.0
+2023-12-01,North,Split AC,2769000.0
+2023-12-01,North,Washing Machine,2178000.0
+2023-12-01,North,Water Dispenser,196000.0
+2023-12-01,North,Window AC,426000.0
+2023-12-01,South,Air Cooler,777000.0
+2023-12-01,South,Refrigerator,2967000.0
+2023-12-01,South,Split AC,5035000.0
+2023-12-01,South,Washing Machine,1632000.0
+2023-12-01,South,Water Dispenser,222000.0
+2023-12-01,South,Window AC,855000.0
+2023-12-01,West,Air Cooler,25000.0
+2023-12-01,West,Refrigerator,3072000.0
+2023-12-01,West,Split AC,3935000.0
+2023-12-01,West,Washing Machine,1930000.0
+2023-12-01,West,Water Dispenser,192000.0
+2023-12-01,West,Window AC,530000.0
+2024-01-01,East,Air Cooler,262000.0
+2024-01-01,East,Refrigerator,1513000.0
+2024-01-01,East,Split AC,2218000.0
+2024-01-01,East,Washing Machine,1082000.0
+2024-01-01,East,Water Dispenser,83000.0
+2024-01-01,East,Window AC,379000.0
+2024-01-01,North,Air Cooler,22000.0
+2024-01-01,North,Refrigerator,2421000.0
+2024-01-01,North,Split AC,2601000.0
+2024-01-01,North,Washing Machine,2553000.0
+2024-01-01,North,Water Dispenser,171000.0
+2024-01-01,North,Window AC,181000.0
+2024-01-01,South,Air Cooler,771000.0
+2024-01-01,South,Refrigerator,2940000.0
+2024-01-01,South,Split AC,5364000.0
+2024-01-01,South,Washing Machine,1712000.0
+2024-01-01,South,Water Dispenser,223000.0
+2024-01-01,South,Window AC,787000.0
+2024-01-01,West,Air Cooler,137000.0
+2024-01-01,West,Refrigerator,2264000.0
+2024-01-01,West,Split AC,2064000.0
+2024-01-01,West,Washing Machine,1402000.0
+2024-01-01,West,Water Dispenser,196000.0
+2024-01-01,West,Window AC,545000.0
+2024-02-01,East,Air Cooler,762000.0
+2024-02-01,East,Refrigerator,1213000.0
+2024-02-01,East,Split AC,3069000.0
+2024-02-01,East,Washing Machine,1082000.0
+2024-02-01,East,Water Dispenser,109000.0
+2024-02-01,East,Window AC,644000.0
+2024-02-01,North,Air Cooler,772000.0
+2024-02-01,North,Refrigerator,3294000.0
+2024-02-01,North,Split AC,4941000.0
+2024-02-01,North,Washing Machine,1927000.0
+2024-02-01,North,Water Dispenser,261000.0
+2024-02-01,North,Window AC,765000.0
+2024-02-01,South,Air Cooler,1356000.0
+2024-02-01,South,Refrigerator,2533000.0
+2024-02-01,South,Split AC,7701000.0
+2024-02-01,South,Washing Machine,1619000.0
+2024-02-01,South,Water Dispenser,250000.0
+2024-02-01,South,Window AC,983000.0
+2024-02-01,West,Air Cooler,1076000.0
+2024-02-01,West,Refrigerator,2893000.0
+2024-02-01,West,Split AC,5487000.0
+2024-02-01,West,Washing Machine,1758000.0
+2024-02-01,West,Water Dispenser,268000.0
+2024-02-01,West,Window AC,935000.0
+2024-03-01,East,Air Cooler,2127000.0
+2024-03-01,East,Refrigerator,1743000.0
+2024-03-01,East,Split AC,7538000.0
+2024-03-01,East,Washing Machine,992000.0
+2024-03-01,East,Water Dispenser,189000.0
+2024-03-01,East,Window AC,1429000.0
+2024-03-01,North,Air Cooler,5003000.0
+2024-03-01,North,Refrigerator,4057000.0
+2024-03-01,North,Split AC,17283000.0
+2024-03-01,North,Washing Machine,2143000.0
+2024-03-01,North,Water Dispenser,406000.0
+2024-03-01,North,Window AC,3214000.0
+2024-03-01,South,Air Cooler,3879000.0
+2024-03-01,South,Refrigerator,3291000.0
+2024-03-01,South,Split AC,12575000.0
+2024-03-01,South,Washing Machine,1651000.0
+2024-03-01,South,Water Dispenser,493000.0
+2024-03-01,South,Window AC,2368000.0
+2024-03-01,West,Air Cooler,4961000.0
+2024-03-01,West,Refrigerator,3036000.0
+2024-03-01,West,Split AC,14635000.0
+2024-03-01,West,Washing Machine,1901000.0
+2024-03-01,West,Water Dispenser,608000.0
+2024-03-01,West,Window AC,2564000.0
+2024-04-01,East,Air Cooler,4022000.0
+2024-04-01,East,Refrigerator,2172000.0
+2024-04-01,East,Split AC,13811000.0
+2024-04-01,East,Washing Machine,1501000.0
+2024-04-01,East,Water Dispenser,268000.0
+2024-04-01,East,Window AC,2562000.0
+2024-04-01,North,Air Cooler,8878000.0
+2024-04-01,North,Refrigerator,5174000.0
+2024-04-01,North,Split AC,29269000.0
+2024-04-01,North,Washing Machine,2095000.0
+2024-04-01,North,Water Dispenser,738000.0
+2024-04-01,North,Window AC,5495000.0
+2024-04-01,South,Air Cooler,5771000.0
+2024-04-01,South,Refrigerator,3278000.0
+2024-04-01,South,Split AC,18572000.0
+2024-04-01,South,Washing Machine,1753000.0
+2024-04-01,South,Water Dispenser,473000.0
+2024-04-01,South,Window AC,3326000.0
+2024-04-01,West,Air Cooler,8277000.0
+2024-04-01,West,Refrigerator,3895000.0
+2024-04-01,West,Split AC,27484000.0
+2024-04-01,West,Washing Machine,1905000.0
+2024-04-01,West,Water Dispenser,626000.0
+2024-04-01,West,Window AC,4472000.0
+2024-05-01,East,Air Cooler,3560000.0
+2024-05-01,East,Refrigerator,2217000.0
+2024-05-01,East,Split AC,15495000.0
+2024-05-01,East,Washing Machine,1418000.0
+2024-05-01,East,Water Dispenser,374000.0
+2024-05-01,East,Window AC,3182000.0
+2024-05-01,North,Air Cooler,9588000.0
+2024-05-01,North,Refrigerator,4502000.0
+2024-05-01,North,Split AC,35323000.0
+2024-05-01,North,Washing Machine,2293000.0
+2024-05-01,North,Water Dispenser,857000.0
+2024-05-01,North,Window AC,5875000.0
+2024-05-01,South,Air Cooler,5574000.0
+2024-05-01,South,Refrigerator,3500000.0
+2024-05-01,South,Split AC,22570000.0
+2024-05-01,South,Washing Machine,1856000.0
+2024-05-01,South,Water Dispenser,514000.0
+2024-05-01,South,Window AC,4456000.0
+2024-05-01,West,Air Cooler,7760000.0
+2024-05-01,West,Refrigerator,3937000.0
+2024-05-01,West,Split AC,33526000.0
+2024-05-01,West,Washing Machine,2519000.0
+2024-05-01,West,Water Dispenser,770000.0
+2024-05-01,West,Window AC,6259000.0
+2024-06-01,East,Air Cooler,2602000.0
+2024-06-01,East,Refrigerator,2184000.0
+2024-06-01,East,Split AC,11388000.0
+2024-06-01,East,Washing Machine,1083000.0
+2024-06-01,East,Water Dispenser,391000.0
+2024-06-01,East,Window AC,1558000.0
+2024-06-01,North,Air Cooler,5715000.0
+2024-06-01,North,Refrigerator,4328000.0
+2024-06-01,North,Split AC,24206000.0
+2024-06-01,North,Washing Machine,2278000.0
+2024-06-01,North,Water Dispenser,666000.0
+2024-06-01,North,Window AC,4245000.0
+2024-06-01,South,Air Cooler,3941000.0
+2024-06-01,South,Refrigerator,2958000.0
+2024-06-01,South,Split AC,16948000.0
+2024-06-01,South,Washing Machine,1988000.0
+2024-06-01,South,Water Dispenser,384000.0
+2024-06-01,South,Window AC,2978000.0
+2024-06-01,West,Air Cooler,4839000.0
+2024-06-01,West,Refrigerator,3354000.0
+2024-06-01,West,Split AC,23174000.0
+2024-06-01,West,Washing Machine,2140000.0
+2024-06-01,West,Water Dispenser,494000.0
+2024-06-01,West,Window AC,3833000.0
+2024-07-01,East,Air Cooler,949000.0
+2024-07-01,East,Refrigerator,1982000.0
+2024-07-01,East,Split AC,5104000.0
+2024-07-01,East,Washing Machine,1304000.0
+2024-07-01,East,Water Dispenser,285000.0
+2024-07-01,East,Window AC,1121000.0
+2024-07-01,North,Air Cooler,1214000.0
+2024-07-01,North,Refrigerator,2758000.0
+2024-07-01,North,Split AC,8374000.0
+2024-07-01,North,Washing Machine,2074000.0
+2024-07-01,North,Water Dispenser,344000.0
+2024-07-01,North,Window AC,1468000.0
+2024-07-01,South,Air Cooler,1503000.0
+2024-07-01,South,Refrigerator,2914000.0
+2024-07-01,South,Split AC,9824000.0
+2024-07-01,South,Washing Machine,2007000.0
+2024-07-01,South,Water Dispenser,399000.0
+2024-07-01,South,Window AC,1328000.0
+2024-07-01,West,Air Cooler,1234000.0
+2024-07-01,West,Refrigerator,2638000.0
+2024-07-01,West,Split AC,7658000.0
+2024-07-01,West,Washing Machine,2147000.0
+2024-07-01,West,Water Dispenser,348000.0
+2024-07-01,West,Window AC,1574000.0
+2024-08-01,East,Air Cooler,559000.0
+2024-08-01,East,Refrigerator,1347000.0
+2024-08-01,East,Split AC,3766000.0
+2024-08-01,East,Washing Machine,1300000.0
+2024-08-01,East,Water Dispenser,217000.0
+2024-08-01,East,Window AC,666000.0
+2024-08-01,North,Air Cooler,288000.0
+2024-08-01,North,Refrigerator,2825000.0
+2024-08-01,North,Split AC,5899000.0
+2024-08-01,North,Washing Machine,2755000.0
+2024-08-01,North,Water Dispenser,279000.0
+2024-08-01,North,Window AC,715000.0
+2024-08-01,South,Air Cooler,1021000.0
+2024-08-01,South,Refrigerator,2736000.0
+2024-08-01,South,Split AC,6383000.0
+2024-08-01,South,Washing Machine,2186000.0
+2024-08-01,South,Water Dispenser,371000.0
+2024-08-01,South,Window AC,1247000.0
+2024-08-01,West,Air Cooler,550000.0
+2024-08-01,West,Refrigerator,2987000.0
+2024-08-01,West,Split AC,6750000.0
+2024-08-01,West,Washing Machine,2148000.0
+2024-08-01,West,Water Dispenser,382000.0
+2024-08-01,West,Window AC,1026000.0
+2024-09-01,East,Air Cooler,465000.0
+2024-09-01,East,Refrigerator,2644000.0
+2024-09-01,East,Split AC,3328000.0
+2024-09-01,East,Washing Machine,1098000.0
+2024-09-01,East,Water Dispenser,138000.0
+2024-09-01,East,Window AC,870000.0
+2024-09-01,North,Air Cooler,312000.0
+2024-09-01,North,Refrigerator,3111000.0
+2024-09-01,North,Split AC,5978000.0
+2024-09-01,North,Washing Machine,2902000.0
+2024-09-01,North,Water Dispenser,414000.0
+2024-09-01,North,Window AC,953000.0
+2024-09-01,South,Air Cooler,1361000.0
+2024-09-01,South,Refrigerator,3525000.0
+2024-09-01,South,Split AC,6189000.0
+2024-09-01,South,Washing Machine,2416000.0
+2024-09-01,South,Water Dispenser,309000.0
+2024-09-01,South,Window AC,1427000.0
+2024-09-01,West,Air Cooler,643000.0
+2024-09-01,West,Refrigerator,2961000.0
+2024-09-01,West,Split AC,5703000.0
+2024-09-01,West,Washing Machine,2446000.0
+2024-09-01,West,Water Dispenser,260000.0
+2024-09-01,West,Window AC,664000.0
+2024-10-01,East,Air Cooler,432000.0
+2024-10-01,East,Refrigerator,2482000.0
+2024-10-01,East,Split AC,4957000.0
+2024-10-01,East,Washing Machine,1626000.0
+2024-10-01,East,Water Dispenser,211000.0
+2024-10-01,East,Window AC,934000.0
+2024-10-01,North,Air Cooler,172000.0
+2024-10-01,North,Refrigerator,5222000.0
+2024-10-01,North,Split AC,7025000.0
+2024-10-01,North,Washing Machine,3824000.0
+2024-10-01,North,Water Dispenser,493000.0
+2024-10-01,North,Window AC,1105000.0
+2024-10-01,South,Air Cooler,1182000.0
+2024-10-01,South,Refrigerator,4005000.0
+2024-10-01,South,Split AC,8712000.0
+2024-10-01,South,Washing Machine,2774000.0
+2024-10-01,South,Water Dispenser,439000.0
+2024-10-01,South,Window AC,1444000.0
+2024-10-01,West,Air Cooler,493000.0
+2024-10-01,West,Refrigerator,5073000.0
+2024-10-01,West,Split AC,6248000.0
+2024-10-01,West,Washing Machine,3157000.0
+2024-10-01,West,Water Dispenser,344000.0
+2024-10-01,West,Window AC,1078000.0
+2024-11-01,East,Air Cooler,331000.0
+2024-11-01,East,Refrigerator,2239000.0
+2024-11-01,East,Split AC,4150000.0
+2024-11-01,East,Washing Machine,1476000.0
+2024-11-01,East,Water Dispenser,190000.0
+2024-11-01,East,Window AC,407000.0
+2024-11-01,North,Air Cooler,39000.0
+2024-11-01,North,Refrigerator,5182000.0
+2024-11-01,North,Split AC,6348000.0
+2024-11-01,North,Washing Machine,3526000.0
+2024-11-01,North,Water Dispenser,322000.0
+2024-11-01,North,Window AC,618000.0
+2024-11-01,South,Air Cooler,1194000.0
+2024-11-01,South,Refrigerator,3553000.0
+2024-11-01,South,Split AC,8179000.0
+2024-11-01,South,Washing Machine,2319000.0
+2024-11-01,South,Water Dispenser,362000.0
+2024-11-01,South,Window AC,1194000.0
+2024-11-01,West,Air Cooler,240000.0
+2024-11-01,West,Refrigerator,4911000.0
+2024-11-01,West,Split AC,6302000.0
+2024-11-01,West,Washing Machine,2946000.0
+2024-11-01,West,Water Dispenser,390000.0
+2024-11-01,West,Window AC,956000.0
+2024-12-01,East,Air Cooler,251000.0
+2024-12-01,East,Refrigerator,1542000.0
+2024-12-01,East,Split AC,3072000.0
+2024-12-01,East,Washing Machine,1354000.0
+2024-12-01,East,Water Dispenser,203000.0
+2024-12-01,East,Window AC,664000.0
+2024-12-01,North,Air Cooler,37000.0
+2024-12-01,North,Refrigerator,3247000.0
+2024-12-01,North,Split AC,3075000.0
+2024-12-01,North,Washing Machine,2541000.0
+2024-12-01,North,Water Dispenser,211000.0
+2024-12-01,North,Window AC,456000.0
+2024-12-01,South,Air Cooler,823000.0
+2024-12-01,South,Refrigerator,3415000.0
+2024-12-01,South,Split AC,5600000.0
+2024-12-01,South,Washing Machine,1935000.0
+2024-12-01,South,Water Dispenser,248000.0
+2024-12-01,South,Window AC,952000.0
+2024-12-01,West,Air Cooler,27000.0
+2024-12-01,West,Refrigerator,3390000.0
+2024-12-01,West,Split AC,4281000.0
+2024-12-01,West,Washing Machine,2238000.0
+2024-12-01,West,Water Dispenser,209000.0
+2024-12-01,West,Window AC,608000.0
+2025-01-01,East,Air Cooler,246000.0
+2025-01-01,East,Refrigerator,1881000.0
+2025-01-01,East,Split AC,3027000.0
+2025-01-01,East,Washing Machine,1057000.0
+2025-01-01,East,Water Dispenser,110000.0
+2025-01-01,East,Window AC,459000.0
+2025-01-01,North,Air Cooler,12000.0
+2025-01-01,North,Refrigerator,2832000.0
+2025-01-01,North,Split AC,1945000.0
+2025-01-01,North,Washing Machine,2100000.0
+2025-01-01,North,Water Dispenser,164000.0
+2025-01-01,North,Window AC,206000.0
+2025-01-01,South,Air Cooler,1084000.0
+2025-01-01,South,Refrigerator,3003000.0
+2025-01-01,South,Split AC,6607000.0
+2025-01-01,South,Washing Machine,2044000.0
+2025-01-01,South,Water Dispenser,204000.0
+2025-01-01,South,Window AC,1162000.0
+2025-01-01,West,Air Cooler,106000.0
+2025-01-01,West,Refrigerator,2297000.0
+2025-01-01,West,Split AC,3542000.0
+2025-01-01,West,Washing Machine,1766000.0
+2025-01-01,West,Water Dispenser,183000.0
+2025-01-01,West,Window AC,446000.0
+2025-02-01,East,Air Cooler,609000.0
+2025-02-01,East,Refrigerator,1877000.0
+2025-02-01,East,Split AC,4190000.0
+2025-02-01,East,Washing Machine,1009000.0
+2025-02-01,East,Water Dispenser,152000.0
+2025-02-01,East,Window AC,726000.0
+2025-02-01,North,Air Cooler,853000.0
+2025-02-01,North,Refrigerator,2840000.0
+2025-02-01,North,Split AC,5911000.0
+2025-02-01,North,Washing Machine,1939000.0
+2025-02-01,North,Water Dispenser,355000.0
+2025-02-01,North,Window AC,1146000.0
+2025-02-01,South,Air Cooler,1942000.0
+2025-02-01,South,Refrigerator,2383000.0
+2025-02-01,South,Split AC,8708000.0
+2025-02-01,South,Washing Machine,1872000.0
+2025-02-01,South,Water Dispenser,379000.0
+2025-02-01,South,Window AC,1323000.0
+2025-02-01,West,Air Cooler,1018000.0
+2025-02-01,West,Refrigerator,2751000.0
+2025-02-01,West,Split AC,6916000.0
+2025-02-01,West,Washing Machine,1782000.0
+2025-02-01,West,Water Dispenser,293000.0
+2025-02-01,West,Window AC,1191000.0
+2025-03-01,East,Air Cooler,2852000.0
+2025-03-01,East,Refrigerator,2271000.0
+2025-03-01,East,Split AC,9889000.0
+2025-03-01,East,Washing Machine,1144000.0
+2025-03-01,East,Water Dispenser,248000.0
+2025-03-01,East,Window AC,1672000.0
+2025-03-01,North,Air Cooler,5573000.0
+2025-03-01,North,Refrigerator,5030000.0
+2025-03-01,North,Split AC,18133000.0
+2025-03-01,North,Washing Machine,2011000.0
+2025-03-01,North,Water Dispenser,531000.0
+2025-03-01,North,Window AC,3445000.0
+2025-03-01,South,Air Cooler,4241000.0
+2025-03-01,South,Refrigerator,3447000.0
+2025-03-01,South,Split AC,14937000.0
+2025-03-01,South,Washing Machine,2258000.0
+2025-03-01,South,Water Dispenser,481000.0
+2025-03-01,South,Window AC,2479000.0
+2025-03-01,West,Air Cooler,5332000.0
+2025-03-01,West,Refrigerator,4550000.0
+2025-03-01,West,Split AC,19374000.0
+2025-03-01,West,Washing Machine,2186000.0
+2025-03-01,West,Water Dispenser,492000.0
+2025-03-01,West,Window AC,2635000.0
+2025-04-01,East,Air Cooler,5670000.0
+2025-04-01,East,Refrigerator,2296000.0
+2025-04-01,East,Split AC,19269000.0
+2025-04-01,East,Washing Machine,1479000.0
+2025-04-01,East,Water Dispenser,385000.0
+2025-04-01,East,Window AC,3543000.0
+2025-04-01,North,Air Cooler,12331000.0
+2025-04-01,North,Refrigerator,5077000.0
+2025-04-01,North,Split AC,41877000.0
+2025-04-01,North,Washing Machine,2336000.0
+2025-04-01,North,Water Dispenser,626000.0
+2025-04-01,North,Window AC,8135000.0
+2025-04-01,South,Air Cooler,7838000.0
+2025-04-01,South,Refrigerator,4796000.0
+2025-04-01,South,Split AC,26916000.0
+2025-04-01,South,Washing Machine,2333000.0
+2025-04-01,South,Water Dispenser,578000.0
+2025-04-01,South,Window AC,4846000.0
+2025-04-01,West,Air Cooler,10572000.0
+2025-04-01,West,Refrigerator,4455000.0
+2025-04-01,West,Split AC,36730000.0
+2025-04-01,West,Washing Machine,2397000.0
+2025-04-01,West,Water Dispenser,862000.0
+2025-04-01,West,Window AC,7308000.0
+2025-05-01,East,Air Cooler,5751000.0
+2025-05-01,East,Refrigerator,2485000.0
+2025-05-01,East,Split AC,22137000.0
+2025-05-01,East,Washing Machine,1039000.0
+2025-05-01,East,Water Dispenser,265000.0
+2025-05-01,East,Window AC,4071000.0
+2025-05-01,North,Air Cooler,14036000.0
+2025-05-01,North,Refrigerator,5933000.0
+2025-05-01,North,Split AC,49067000.0
+2025-05-01,North,Washing Machine,2641000.0
+2025-05-01,North,Water Dispenser,919000.0
+2025-05-01,North,Window AC,9205000.0
+2025-05-01,South,Air Cooler,7393000.0
+2025-05-01,South,Refrigerator,3816000.0
+2025-05-01,South,Split AC,32175000.0
+2025-05-01,South,Washing Machine,2286000.0
+2025-05-01,South,Water Dispenser,706000.0
+2025-05-01,South,Window AC,4668000.0
+2025-05-01,West,Air Cooler,11197000.0
+2025-05-01,West,Refrigerator,4991000.0
+2025-05-01,West,Split AC,42540000.0
+2025-05-01,West,Washing Machine,2387000.0
+2025-05-01,West,Water Dispenser,924000.0
+2025-05-01,West,Window AC,6804000.0
+2025-06-01,East,Air Cooler,3967000.0
+2025-06-01,East,Refrigerator,2724000.0
+2025-06-01,East,Split AC,15773000.0
+2025-06-01,East,Washing Machine,960000.0
+2025-06-01,East,Water Dispenser,351000.0
+2025-06-01,East,Window AC,2873000.0
+2025-06-01,North,Air Cooler,7795000.0
+2025-06-01,North,Refrigerator,3536000.0
+2025-06-01,North,Split AC,37580000.0
+2025-06-01,North,Washing Machine,2111000.0
+2025-06-01,North,Water Dispenser,607000.0
+2025-06-01,North,Window AC,5603000.0
+2025-06-01,South,Air Cooler,5203000.0
+2025-06-01,South,Refrigerator,3649000.0
+2025-06-01,South,Split AC,23729000.0
+2025-06-01,South,Washing Machine,2108000.0
+2025-06-01,South,Water Dispenser,522000.0
+2025-06-01,South,Window AC,3805000.0
+2025-06-01,West,Air Cooler,6858000.0
+2025-06-01,West,Refrigerator,4039000.0
+2025-06-01,West,Split AC,30656000.0
+2025-06-01,West,Washing Machine,2523000.0
+2025-06-01,West,Water Dispenser,609000.0
+2025-06-01,West,Window AC,4433000.0
+2025-07-01,East,Air Cooler,917000.0
+2025-07-01,East,Refrigerator,1620000.0
+2025-07-01,East,Split AC,4587000.0
+2025-07-01,East,Washing Machine,1690000.0
+2025-07-01,East,Water Dispenser,302000.0
+2025-07-01,East,Window AC,1176000.0
+2025-07-01,North,Air Cooler,1316000.0
+2025-07-01,North,Refrigerator,3037000.0
+2025-07-01,North,Split AC,10853000.0
+2025-07-01,North,Washing Machine,2247000.0
+2025-07-01,North,Water Dispenser,451000.0
+2025-07-01,North,Window AC,1410000.0
+2025-07-01,South,Air Cooler,1607000.0
+2025-07-01,South,Refrigerator,2588000.0
+2025-07-01,South,Split AC,12257000.0
+2025-07-01,South,Washing Machine,2310000.0
+2025-07-01,South,Water Dispenser,482000.0
+2025-07-01,South,Window AC,1834000.0
+2025-07-01,West,Air Cooler,1357000.0
+2025-07-01,West,Refrigerator,3040000.0
+2025-07-01,West,Split AC,8848000.0
+2025-07-01,West,Washing Machine,2418000.0
+2025-07-01,West,Water Dispenser,344000.0
+2025-07-01,West,Window AC,2042000.0
+2025-08-01,East,Air Cooler,680000.0
+2025-08-01,East,Refrigerator,1644000.0
+2025-08-01,East,Split AC,4360000.0
+2025-08-01,East,Washing Machine,1315000.0
+2025-08-01,East,Water Dispenser,197000.0
+2025-08-01,East,Window AC,690000.0
+2025-08-01,North,Air Cooler,367000.0
+2025-08-01,North,Refrigerator,3055000.0
+2025-08-01,North,Split AC,5937000.0
+2025-08-01,North,Washing Machine,2714000.0
+2025-08-01,North,Water Dispenser,351000.0
+2025-08-01,North,Window AC,900000.0
+2025-08-01,South,Air Cooler,1675000.0
+2025-08-01,South,Refrigerator,3557000.0
+2025-08-01,South,Split AC,9275000.0
+2025-08-01,South,Washing Machine,2435000.0
+2025-08-01,South,Water Dispenser,341000.0
+2025-08-01,South,Window AC,1568000.0
+2025-08-01,West,Air Cooler,751000.0
+2025-08-01,West,Refrigerator,3155000.0
+2025-08-01,West,Split AC,7288000.0
+2025-08-01,West,Washing Machine,2964000.0
+2025-08-01,West,Water Dispenser,406000.0
+2025-08-01,West,Window AC,1254000.0
+2025-09-01,East,Air Cooler,555000.0
+2025-09-01,East,Refrigerator,1975000.0
+2025-09-01,East,Split AC,3686000.0
+2025-09-01,East,Washing Machine,1588000.0
+2025-09-01,East,Water Dispenser,158000.0
+2025-09-01,East,Window AC,807000.0
+2025-09-01,North,Air Cooler,320000.0
+2025-09-01,North,Refrigerator,3759000.0
+2025-09-01,North,Split AC,6791000.0
+2025-09-01,North,Washing Machine,3040000.0
+2025-09-01,North,Water Dispenser,348000.0
+2025-09-01,North,Window AC,893000.0
+2025-09-01,South,Air Cooler,1573000.0
+2025-09-01,South,Refrigerator,3517000.0
+2025-09-01,South,Split AC,7918000.0
+2025-09-01,South,Washing Machine,2303000.0
+2025-09-01,South,Water Dispenser,270000.0
+2025-09-01,South,Window AC,1118000.0
+2025-09-01,West,Air Cooler,603000.0
+2025-09-01,West,Refrigerator,3517000.0
+2025-09-01,West,Split AC,7116000.0
+2025-09-01,West,Washing Machine,2230000.0
+2025-09-01,West,Water Dispenser,379000.0
+2025-09-01,West,Window AC,1301000.0
+2025-10-01,East,Air Cooler,630000.0
+2025-10-01,East,Refrigerator,3279000.0
+2025-10-01,East,Split AC,4868000.0
+2025-10-01,East,Washing Machine,2201000.0
+2025-10-01,East,Water Dispenser,192000.0
+2025-10-01,East,Window AC,379000.0
+2025-10-01,North,Air Cooler,239000.0
+2025-10-01,North,Refrigerator,5404000.0
+2025-10-01,North,Split AC,7760000.0
+2025-10-01,North,Washing Machine,3720000.0
+2025-10-01,North,Water Dispenser,391000.0
+2025-10-01,North,Window AC,1080000.0
+2025-10-01,South,Air Cooler,1448000.0
+2025-10-01,South,Refrigerator,4068000.0
+2025-10-01,South,Split AC,9885000.0
+2025-10-01,South,Washing Machine,2680000.0
+2025-10-01,South,Water Dispenser,455000.0
+2025-10-01,South,Window AC,1172000.0
+2025-10-01,West,Air Cooler,551000.0
+2025-10-01,West,Refrigerator,4892000.0
+2025-10-01,West,Split AC,7536000.0
+2025-10-01,West,Washing Machine,4276000.0
+2025-10-01,West,Water Dispenser,329000.0
+2025-10-01,West,Window AC,1011000.0
+2025-11-01,East,Air Cooler,353000.0
+2025-11-01,East,Refrigerator,2727000.0
+2025-11-01,East,Split AC,3718000.0
+2025-11-01,East,Washing Machine,1865000.0
+2025-11-01,East,Water Dispenser,326000.0
+2025-11-01,East,Window AC,433000.0
+2025-11-01,North,Refrigerator,5686000.0
+2025-11-01,North,Split AC,6445000.0
+2025-11-01,North,Washing Machine,4266000.0
+2025-11-01,North,Water Dispenser,362000.0
+2025-11-01,North,Window AC,683000.0
+2025-11-01,South,Air Cooler,1285000.0
+2025-11-01,South,Refrigerator,4694000.0
+2025-11-01,South,Split AC,8550000.0
+2025-11-01,South,Washing Machine,3417000.0
+2025-11-01,South,Water Dispenser,324000.0
+2025-11-01,South,Window AC,1004000.0
+2025-11-01,West,Air Cooler,107000.0
+2025-11-01,West,Refrigerator,5862000.0
+2025-11-01,West,Split AC,7236000.0
+2025-11-01,West,Washing Machine,3674000.0
+2025-11-01,West,Water Dispenser,187000.0
+2025-11-01,West,Window AC,872000.0
+2025-12-01,East,Air Cooler,263000.0
+2025-12-01,East,Refrigerator,1952000.0
+2025-12-01,East,Split AC,3005000.0
+2025-12-01,East,Washing Machine,1512000.0
+2025-12-01,East,Water Dispenser,243000.0
+2025-12-01,East,Window AC,250000.0
+2025-12-01,North,Air Cooler,29000.0
+2025-12-01,North,Refrigerator,3947000.0
+2025-12-01,North,Split AC,3144000.0
+2025-12-01,North,Washing Machine,3223000.0
+2025-12-01,North,Water Dispenser,199000.0
+2025-12-01,North,Window AC,558000.0
+2025-12-01,South,Air Cooler,1120000.0
+2025-12-01,South,Refrigerator,3506000.0
+2025-12-01,South,Split AC,8347000.0
+2025-12-01,South,Washing Machine,2884000.0
+2025-12-01,South,Water Dispenser,308000.0
+2025-12-01,South,Window AC,1542000.0
+2025-12-01,West,Air Cooler,58000.0
+2025-12-01,West,Refrigerator,3465000.0
+2025-12-01,West,Split AC,4691000.0
+2025-12-01,West,Washing Machine,2309000.0
+2025-12-01,West,Water Dispenser,207000.0
+2025-12-01,West,Window AC,682000.0

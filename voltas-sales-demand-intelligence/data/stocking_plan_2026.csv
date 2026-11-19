@@ -1,0 +1,289 @@
+month,region,category,forecast_units,safety_stock,target_stock_level,reorder_point
+2026-01-01,East,Air Cooler,30,9,40,40
+2026-02-01,East,Air Cooler,81,25,107,107
+2026-03-01,East,Air Cooler,274,86,360,360
+2026-04-01,East,Air Cooler,476,149,625,625
+2026-05-01,East,Air Cooler,474,149,623,623
+2026-06-01,East,Air Cooler,319,100,419,419
+2026-07-01,East,Air Cooler,106,33,139,139
+2026-08-01,East,Air Cooler,64,20,85,85
+2026-09-01,East,Air Cooler,54,17,71,71
+2026-10-01,East,Air Cooler,66,21,87,87
+2026-11-01,East,Air Cooler,37,12,49,49
+2026-12-01,East,Air Cooler,20,6,27,27
+2026-01-01,East,Refrigerator,71,19,90,90
+2026-02-01,East,Refrigerator,69,18,87,87
+2026-03-01,East,Refrigerator,92,24,117,117
+2026-04-01,East,Refrigerator,100,26,126,126
+2026-05-01,East,Refrigerator,106,28,134,134
+2026-06-01,East,Refrigerator,90,24,114,114
+2026-07-01,East,Refrigerator,70,19,88,88
+2026-08-01,East,Refrigerator,71,19,89,89
+2026-09-01,East,Refrigerator,71,19,89,89
+2026-10-01,East,Refrigerator,102,27,129,129
+2026-11-01,East,Refrigerator,103,27,131,131
+2026-12-01,East,Refrigerator,75,20,95,95
+2026-01-01,East,Split AC,71,16,87,87
+2026-02-01,East,Split AC,116,26,141,141
+2026-03-01,East,Split AC,237,52,290,290
+2026-04-01,East,Split AC,421,93,514,514
+2026-05-01,East,Split AC,456,101,557,557
+2026-06-01,East,Split AC,341,75,416,416
+2026-07-01,East,Split AC,161,35,196,196
+2026-08-01,East,Split AC,100,22,122,122
+2026-09-01,East,Split AC,104,23,127,127
+2026-10-01,East,Split AC,136,30,166,166
+2026-11-01,East,Split AC,113,25,138,138
+2026-12-01,East,Split AC,84,19,103,103
+2026-01-01,East,Washing Machine,55,18,73,73
+2026-02-01,East,Washing Machine,61,20,81,81
+2026-03-01,East,Washing Machine,57,18,75,75
+2026-04-01,East,Washing Machine,73,24,97,97
+2026-05-01,East,Washing Machine,80,26,105,105
+2026-06-01,East,Washing Machine,67,21,88,88
+2026-07-01,East,Washing Machine,73,24,97,97
+2026-08-01,East,Washing Machine,66,21,87,87
+2026-09-01,East,Washing Machine,84,27,111,111
+2026-10-01,East,Washing Machine,98,31,129,129
+2026-11-01,East,Washing Machine,107,35,142,142
+2026-12-01,East,Washing Machine,87,28,115,115
+2026-01-01,East,Water Dispenser,10,5,15,15
+2026-02-01,East,Water Dispenser,15,8,23,23
+2026-03-01,East,Water Dispenser,26,14,40,40
+2026-04-01,East,Water Dispenser,36,18,54,54
+2026-05-01,East,Water Dispenser,47,25,72,72
+2026-06-01,East,Water Dispenser,41,21,62,62
+2026-07-01,East,Water Dispenser,30,16,46,46
+2026-08-01,East,Water Dispenser,19,10,29,29
+2026-09-01,East,Water Dispenser,21,11,32,32
+2026-10-01,East,Water Dispenser,29,15,44,44
+2026-11-01,East,Water Dispenser,22,11,33,33
+2026-12-01,East,Water Dispenser,22,11,33,33
+2026-01-01,East,Window AC,14,5,18,18
+2026-02-01,East,Window AC,25,8,33,33
+2026-03-01,East,Window AC,56,18,75,75
+2026-04-01,East,Window AC,118,39,156,156
+2026-05-01,East,Window AC,122,40,162,162
+2026-06-01,East,Window AC,79,26,104,104
+2026-07-01,East,Window AC,43,14,58,58
+2026-08-01,East,Window AC,31,10,42,42
+2026-09-01,East,Window AC,33,11,44,44
+2026-10-01,East,Window AC,25,8,34,34
+2026-11-01,East,Window AC,19,6,25,25
+2026-12-01,East,Window AC,12,4,16,16
+2026-01-01,North,Air Cooler,2,2,3,3
+2026-02-01,North,Air Cooler,72,64,136,136
+2026-03-01,North,Air Cooler,492,442,934,934
+2026-04-01,North,Air Cooler,879,790,1669,1669
+2026-05-01,North,Air Cooler,937,841,1778,1778
+2026-06-01,North,Air Cooler,540,485,1026,1026
+2026-07-01,North,Air Cooler,102,92,194,194
+2026-08-01,North,Air Cooler,30,27,57,57
+2026-09-01,North,Air Cooler,46,41,87,87
+2026-10-01,North,Air Cooler,18,16,34,34
+2026-11-01,North,Air Cooler,0,0,1,1
+2026-12-01,North,Air Cooler,1,1,1,1
+2026-01-01,North,Refrigerator,101,20,121,121
+2026-02-01,North,Refrigerator,124,25,148,148
+2026-03-01,North,Refrigerator,159,32,191,191
+2026-04-01,North,Refrigerator,204,41,244,244
+2026-05-01,North,Refrigerator,208,42,250,250
+2026-06-01,North,Refrigerator,165,33,198,198
+2026-07-01,North,Refrigerator,130,26,156,156
+2026-08-01,North,Refrigerator,144,29,173,173
+2026-09-01,North,Refrigerator,144,29,173,173
+2026-10-01,North,Refrigerator,244,49,292,292
+2026-11-01,North,Refrigerator,218,44,262,262
+2026-12-01,North,Refrigerator,147,29,176,176
+2026-01-01,North,Split AC,72,19,90,90
+2026-02-01,North,Split AC,168,44,212,212
+2026-03-01,North,Split AC,501,131,631,631
+2026-04-01,North,Split AC,898,235,1133,1133
+2026-05-01,North,Split AC,1099,287,1386,1386
+2026-06-01,North,Split AC,776,203,979,979
+2026-07-01,North,Split AC,297,78,374,374
+2026-08-01,North,Split AC,179,47,226,226
+2026-09-01,North,Split AC,159,42,201,201
+2026-10-01,North,Split AC,224,59,283,283
+2026-11-01,North,Split AC,166,43,209,209
+2026-12-01,North,Split AC,103,27,130,130
+2026-01-01,North,Washing Machine,112,18,131,131
+2026-02-01,North,Washing Machine,120,20,140,140
+2026-03-01,North,Washing Machine,114,19,133,133
+2026-04-01,North,Washing Machine,139,23,162,162
+2026-05-01,North,Washing Machine,136,22,158,158
+2026-06-01,North,Washing Machine,116,19,136,136
+2026-07-01,North,Washing Machine,127,21,148,148
+2026-08-01,North,Washing Machine,130,21,152,152
+2026-09-01,North,Washing Machine,157,26,182,182
+2026-10-01,North,Washing Machine,214,35,249,249
+2026-11-01,North,Washing Machine,211,35,246,246
+2026-12-01,North,Washing Machine,162,27,189,189
+2026-01-01,North,Water Dispenser,19,5,24,24
+2026-02-01,North,Water Dispenser,37,9,46,46
+2026-03-01,North,Water Dispenser,50,13,63,63
+2026-04-01,North,Water Dispenser,86,22,109,109
+2026-05-01,North,Water Dispenser,81,21,102,102
+2026-06-01,North,Water Dispenser,67,17,84,84
+2026-07-01,North,Water Dispenser,49,13,62,62
+2026-08-01,North,Water Dispenser,39,10,50,50
+2026-09-01,North,Water Dispenser,44,11,55,55
+2026-10-01,North,Water Dispenser,50,13,63,63
+2026-11-01,North,Water Dispenser,43,11,54,54
+2026-12-01,North,Water Dispenser,26,7,33,33
+2026-01-01,North,Window AC,8,3,11,11
+2026-02-01,North,Window AC,35,14,49,49
+2026-03-01,North,Window AC,123,48,171,171
+2026-04-01,North,Window AC,218,85,303,303
+2026-05-01,North,Window AC,252,98,350,350
+2026-06-01,North,Window AC,166,64,231,231
+2026-07-01,North,Window AC,66,26,92,92
+2026-08-01,North,Window AC,33,13,46,46
+2026-09-01,North,Window AC,49,19,69,69
+2026-10-01,North,Window AC,44,17,60,60
+2026-11-01,North,Window AC,28,11,38,38
+2026-12-01,North,Window AC,16,6,22,22
+2026-01-01,South,Air Cooler,105,17,122,122
+2026-02-01,South,Air Cooler,176,28,205,205
+2026-03-01,South,Air Cooler,414,67,481,481
+2026-04-01,South,Air Cooler,701,113,814,814
+2026-05-01,South,Air Cooler,728,117,845,845
+2026-06-01,South,Air Cooler,485,78,563,563
+2026-07-01,South,Air Cooler,201,32,234,234
+2026-08-01,South,Air Cooler,176,28,205,205
+2026-09-01,South,Air Cooler,157,25,182,182
+2026-10-01,South,Air Cooler,149,24,173,173
+2026-11-01,South,Air Cooler,146,24,170,170
+2026-12-01,South,Air Cooler,131,21,152,152
+2026-01-01,South,Refrigerator,121,30,151,151
+2026-02-01,South,Refrigerator,101,25,127,127
+2026-03-01,South,Refrigerator,138,35,173,173
+2026-04-01,South,Refrigerator,185,46,231,231
+2026-05-01,South,Refrigerator,157,39,196,196
+2026-06-01,South,Refrigerator,145,36,181,181
+2026-07-01,South,Refrigerator,142,36,178,178
+2026-08-01,South,Refrigerator,150,37,187,187
+2026-09-01,South,Refrigerator,138,34,172,172
+2026-10-01,South,Refrigerator,195,49,244,244
+2026-11-01,South,Refrigerator,184,46,230,230
+2026-12-01,South,Refrigerator,140,35,175,175
+2026-01-01,South,Split AC,145,21,166,166
+2026-02-01,South,Split AC,197,29,226,226
+2026-03-01,South,Split AC,379,55,434,434
+2026-04-01,South,Split AC,587,85,672,672
+2026-05-01,South,Split AC,677,98,775,775
+2026-06-01,South,Split AC,525,76,602,602
+2026-07-01,South,Split AC,286,42,328,328
+2026-08-01,South,Split AC,227,33,260,260
+2026-09-01,South,Split AC,226,33,258,258
+2026-10-01,South,Split AC,271,39,310,310
+2026-11-01,South,Split AC,241,35,276,276
+2026-12-01,South,Split AC,207,30,237,237
+2026-01-01,South,Washing Machine,118,20,138,138
+2026-02-01,South,Washing Machine,96,16,112,112
+2026-03-01,South,Washing Machine,105,18,123,123
+2026-04-01,South,Washing Machine,118,20,138,138
+2026-05-01,South,Washing Machine,115,20,135,135
+2026-06-01,South,Washing Machine,110,19,128,128
+2026-07-01,South,Washing Machine,107,18,125,125
+2026-08-01,South,Washing Machine,115,20,135,135
+2026-09-01,South,Washing Machine,142,24,166,166
+2026-10-01,South,Washing Machine,145,25,169,169
+2026-11-01,South,Washing Machine,155,26,181,181
+2026-12-01,South,Washing Machine,133,23,156,156
+2026-01-01,South,Water Dispenser,29,9,39,39
+2026-02-01,South,Water Dispenser,34,11,45,45
+2026-03-01,South,Water Dispenser,53,17,69,69
+2026-04-01,South,Water Dispenser,47,15,62,62
+2026-05-01,South,Water Dispenser,61,19,80,80
+2026-06-01,South,Water Dispenser,57,18,74,74
+2026-07-01,South,Water Dispenser,43,13,56,56
+2026-08-01,South,Water Dispenser,39,12,51,51
+2026-09-01,South,Water Dispenser,34,11,45,45
+2026-10-01,South,Water Dispenser,44,14,58,58
+2026-11-01,South,Water Dispenser,44,14,58,58
+2026-12-01,South,Water Dispenser,36,11,47,47
+2026-01-01,South,Window AC,31,11,42,42
+2026-02-01,South,Window AC,61,21,82,82
+2026-03-01,South,Window AC,97,34,131,131
+2026-04-01,South,Window AC,144,50,194,194
+2026-05-01,South,Window AC,162,56,218,218
+2026-06-01,South,Window AC,115,40,154,154
+2026-07-01,South,Window AC,66,23,89,89
+2026-08-01,South,Window AC,52,18,71,71
+2026-09-01,South,Window AC,49,17,67,67
+2026-10-01,South,Window AC,61,21,82,82
+2026-11-01,South,Window AC,43,15,57,57
+2026-12-01,South,Window AC,48,17,64,64
+2026-01-01,West,Air Cooler,17,8,25,25
+2026-02-01,West,Air Cooler,112,50,162,162
+2026-03-01,West,Air Cooler,520,230,750,750
+2026-04-01,West,Air Cooler,898,397,1295,1295
+2026-05-01,West,Air Cooler,961,425,1386,1386
+2026-06-01,West,Air Cooler,588,260,848,848
+2026-07-01,West,Air Cooler,150,66,217,217
+2026-08-01,West,Air Cooler,65,29,94,94
+2026-09-01,West,Air Cooler,76,34,110,110
+2026-10-01,West,Air Cooler,70,31,101,101
+2026-11-01,West,Air Cooler,16,7,23,23
+2026-12-01,West,Air Cooler,4,2,5,5
+2026-01-01,West,Refrigerator,105,11,117,117
+2026-02-01,West,Refrigerator,112,12,124,124
+2026-03-01,West,Refrigerator,155,17,171,171
+2026-04-01,West,Refrigerator,168,18,186,186
+2026-05-01,West,Refrigerator,183,20,203,203
+2026-06-01,West,Refrigerator,154,17,171,171
+2026-07-01,West,Refrigerator,113,12,126,126
+2026-08-01,West,Refrigerator,125,14,139,139
+2026-09-01,West,Refrigerator,129,14,143,143
+2026-10-01,West,Refrigerator,197,21,219,219
+2026-11-01,West,Refrigerator,195,21,217,217
+2026-12-01,West,Refrigerator,130,14,144,144
+2026-01-01,West,Split AC,98,21,118,118
+2026-02-01,West,Split AC,169,36,204,204
+2026-03-01,West,Split AC,439,92,531,531
+2026-04-01,West,Split AC,805,169,974,974
+2026-05-01,West,Split AC,954,201,1155,1155
+2026-06-01,West,Split AC,675,142,818,818
+2026-07-01,West,Split AC,272,57,329,329
+2026-08-01,West,Split AC,191,40,232,232
+2026-09-01,West,Split AC,182,38,220,220
+2026-10-01,West,Split AC,208,44,252,252
+2026-11-01,West,Split AC,179,38,216,216
+2026-12-01,West,Split AC,134,28,162,162
+2026-01-01,West,Washing Machine,109,21,130,130
+2026-02-01,West,Washing Machine,104,20,124,124
+2026-03-01,West,Washing Machine,110,21,131,131
+2026-04-01,West,Washing Machine,132,26,158,158
+2026-05-01,West,Washing Machine,123,24,148,148
+2026-06-01,West,Washing Machine,118,23,141,141
+2026-07-01,West,Washing Machine,133,26,159,159
+2026-08-01,West,Washing Machine,140,27,167,167
+2026-09-01,West,Washing Machine,152,30,182,182
+2026-10-01,West,Washing Machine,195,38,233,233
+2026-11-01,West,Washing Machine,184,36,219,219
+2026-12-01,West,Washing Machine,127,25,152,152
+2026-01-01,West,Water Dispenser,26,11,37,37
+2026-02-01,West,Water Dispenser,34,14,49,49
+2026-03-01,West,Water Dispenser,57,24,81,81
+2026-04-01,West,Water Dispenser,70,29,99,99
+2026-05-01,West,Water Dispenser,91,38,128,128
+2026-06-01,West,Water Dispenser,74,31,105,105
+2026-07-01,West,Water Dispenser,45,19,63,63
+2026-08-01,West,Water Dispenser,40,17,57,57
+2026-09-01,West,Water Dispenser,42,17,59,59
+2026-10-01,West,Water Dispenser,51,21,72,72
+2026-11-01,West,Water Dispenser,36,15,52,52
+2026-12-01,West,Water Dispenser,25,10,35,35
+2026-01-01,West,Window AC,13,3,16,16
+2026-02-01,West,Window AC,42,11,54,54
+2026-03-01,West,Window AC,105,28,133,133
+2026-04-01,West,Window AC,195,52,247,247
+2026-05-01,West,Window AC,239,64,302,302
+2026-06-01,West,Window AC,158,42,200,200
+2026-07-01,West,Window AC,67,18,85,85
+2026-08-01,West,Window AC,49,13,63,63
+2026-09-01,West,Window AC,41,11,52,52
+2026-10-01,West,Window AC,42,11,54,54
+2026-11-01,West,Window AC,32,8,40,40
+2026-12-01,West,Window AC,28,8,36,36

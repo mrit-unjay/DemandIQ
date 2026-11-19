@@ -1,0 +1,97 @@
+region,category,model,wape
+East,Air Cooler,Seasonal Naive,0.1097
+East,Air Cooler,Seasonal Index + Trend,0.0883
+East,Air Cooler,Holt-Winters,0.1033
+East,Air Cooler,Ensemble,0.0975
+East,Refrigerator,Seasonal Naive,0.1395
+East,Refrigerator,Seasonal Index + Trend,0.1462
+East,Refrigerator,Holt-Winters,0.1276
+East,Refrigerator,Ensemble,0.1394
+East,Split AC,Seasonal Naive,0.1467
+East,Split AC,Seasonal Index + Trend,0.1526
+East,Split AC,Holt-Winters,0.0965
+East,Split AC,Ensemble,0.136
+East,Washing Machine,Seasonal Naive,0.1733
+East,Washing Machine,Seasonal Index + Trend,0.1471
+East,Washing Machine,Holt-Winters,0.1475
+East,Washing Machine,Ensemble,0.1602
+East,Water Dispenser,Seasonal Naive,0.2727
+East,Water Dispenser,Seasonal Index + Trend,0.2182
+East,Water Dispenser,Holt-Winters,0.2174
+East,Water Dispenser,Ensemble,0.2455
+East,Window AC,Seasonal Naive,0.1248
+East,Window AC,Seasonal Index + Trend,0.1194
+East,Window AC,Holt-Winters,0.6386
+East,Window AC,Ensemble,0.1006
+North,Air Cooler,Seasonal Naive,0.1492
+North,Air Cooler,Seasonal Index + Trend,0.1847
+North,Air Cooler,Holt-Winters,0.9997
+North,Air Cooler,Ensemble,0.0695
+North,Refrigerator,Seasonal Naive,0.1343
+North,Refrigerator,Seasonal Index + Trend,0.0943
+North,Refrigerator,Holt-Winters,0.0815
+North,Refrigerator,Ensemble,0.1138
+North,Split AC,Seasonal Naive,0.1193
+North,Split AC,Seasonal Index + Trend,0.0852
+North,Split AC,Holt-Winters,0.1062
+North,Split AC,Ensemble,0.1022
+North,Washing Machine,Seasonal Naive,0.1417
+North,Washing Machine,Seasonal Index + Trend,0.1348
+North,Washing Machine,Holt-Winters,0.128
+North,Washing Machine,Ensemble,0.1356
+North,Water Dispenser,Seasonal Naive,0.1924
+North,Water Dispenser,Seasonal Index + Trend,0.1777
+North,Water Dispenser,Holt-Winters,0.2112
+North,Water Dispenser,Ensemble,0.185
+North,Window AC,Seasonal Naive,0.2254
+North,Window AC,Seasonal Index + Trend,0.2089
+North,Window AC,Holt-Winters,0.1717
+North,Window AC,Ensemble,0.2079
+South,Air Cooler,Seasonal Naive,0.0813
+South,Air Cooler,Seasonal Index + Trend,0.1341
+South,Air Cooler,Holt-Winters,0.2499
+South,Air Cooler,Ensemble,0.0969
+South,Refrigerator,Seasonal Naive,0.1473
+South,Refrigerator,Seasonal Index + Trend,0.1059
+South,Refrigerator,Holt-Winters,0.1006
+South,Refrigerator,Ensemble,0.1224
+South,Split AC,Seasonal Naive,0.1141
+South,Split AC,Seasonal Index + Trend,0.1845
+South,Split AC,Holt-Winters,0.3141
+South,Split AC,Ensemble,0.1329
+South,Washing Machine,Seasonal Naive,0.0839
+South,Washing Machine,Seasonal Index + Trend,0.0888
+South,Washing Machine,Holt-Winters,0.0964
+South,Washing Machine,Ensemble,0.0744
+South,Water Dispenser,Seasonal Naive,0.1827
+South,Water Dispenser,Seasonal Index + Trend,0.1449
+South,Water Dispenser,Holt-Winters,0.1602
+South,Water Dispenser,Ensemble,0.1638
+South,Window AC,Seasonal Naive,0.1751
+South,Window AC,Seasonal Index + Trend,0.155
+South,Window AC,Holt-Winters,0.1534
+South,Window AC,Ensemble,0.1567
+West,Air Cooler,Seasonal Naive,0.0894
+West,Air Cooler,Seasonal Index + Trend,0.0534
+West,Air Cooler,Holt-Winters,0.124
+West,Air Cooler,Ensemble,0.0544
+West,Refrigerator,Seasonal Naive,0.081
+West,Refrigerator,Seasonal Index + Trend,0.0555
+West,Refrigerator,Holt-Winters,0.0442
+West,Refrigerator,Ensemble,0.0595
+West,Split AC,Seasonal Naive,0.0945
+West,Split AC,Seasonal Index + Trend,0.1656
+West,Split AC,Holt-Winters,0.2228
+West,Split AC,Ensemble,0.1229
+West,Washing Machine,Seasonal Naive,0.109
+West,Washing Machine,Seasonal Index + Trend,0.0941
+West,Washing Machine,Holt-Winters,0.0936
+West,Washing Machine,Ensemble,0.0908
+West,Water Dispenser,Seasonal Naive,0.2304
+West,Water Dispenser,Seasonal Index + Trend,0.2139
+West,Water Dispenser,Holt-Winters,0.1862
+West,Water Dispenser,Ensemble,0.2221
+West,Window AC,Seasonal Naive,0.1159
+West,Window AC,Seasonal Index + Trend,0.1347
+West,Window AC,Holt-Winters,0.1271
+West,Window AC,Ensemble,0.1175

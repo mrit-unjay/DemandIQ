@@ -1,0 +1,19 @@
+product_id,sku,category,model_name,capacity,list_price,unit_cost
+1,AC-S-101,Split AC,Voltas 1.0T 3-Star Inverter Split,1.0 Ton,31990,23673.0
+2,AC-S-152,Split AC,Voltas 1.5T 3-Star Inverter Split,1.5 Ton,36990,27373.0
+3,AC-S-155,Split AC,Voltas 1.5T 5-Star Inverter Split,1.5 Ton,42990,31813.0
+4,AC-S-203,Split AC,Voltas 2.0T 3-Star Inverter Split,2.0 Ton,47990,35513.0
+5,AC-W-101,Window AC,Voltas 1.0T 3-Star Window,1.0 Ton,26490,20132.0
+6,AC-W-153,Window AC,Voltas 1.5T 3-Star Window,1.5 Ton,29990,22792.0
+7,CL-D-070,Air Cooler,Desert Cooler 70L,70 L,11490,7813.0
+8,CL-D-090,Air Cooler,Desert Cooler 90L,90 L,13990,9513.0
+9,CL-P-035,Air Cooler,Personal Cooler 35L,35 L,6990,4753.0
+10,CL-T-045,Air Cooler,Tower Cooler 45L,45 L,8490,5773.0
+11,RF-D-260,Refrigerator,Frost Free Double Door 260L,260 L,27990,21552.0
+12,RF-D-340,Refrigerator,Frost Free Double Door 340L,340 L,36990,28482.0
+13,RF-S-190,Refrigerator,Direct Cool Single Door 190L,190 L,15990,12312.0
+14,WM-F-070,Washing Machine,Front Load 7kg,7 kg,29990,23392.0
+15,WM-T-065,Washing Machine,Top Load 6.5kg,6.5 kg,17990,14032.0
+16,WM-S-080,Washing Machine,Semi Automatic 8kg,8 kg,11990,9352.0
+17,WD-B-001,Water Dispenser,Bottom Loading Dispenser,20 L,12490,8743.0
+18,WD-T-001,Water Dispenser,Top Loading Dispenser,20 L,7990,5593.0

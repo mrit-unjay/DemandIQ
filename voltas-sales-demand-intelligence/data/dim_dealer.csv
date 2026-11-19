@@ -1,0 +1,144 @@
+dealer_id,dealer_name,distributor_id,region,state,city_tier,dealer_tier
+1,Dealer 001,1,North,Delhi,Tier 2,Silver
+2,Dealer 002,1,North,Delhi,Tier 3,Platinum
+3,Dealer 003,1,North,Delhi,Tier 2,Silver
+4,Dealer 004,1,North,Delhi,Tier 1,Platinum
+5,Dealer 005,1,North,Delhi,Tier 3,Gold
+6,Dealer 006,1,North,Delhi,Tier 2,Silver
+7,Dealer 007,2,North,Delhi,Tier 2,Gold
+8,Dealer 008,2,North,Delhi,Tier 2,Platinum
+9,Dealer 009,2,North,Delhi,Tier 2,Silver
+10,Dealer 010,2,North,Delhi,Tier 3,Gold
+11,Dealer 011,2,North,Delhi,Tier 2,Silver
+12,Dealer 012,3,North,Uttar Pradesh,Metro,Platinum
+13,Dealer 013,3,North,Uttar Pradesh,Tier 2,Silver
+14,Dealer 014,3,North,Uttar Pradesh,Tier 1,Silver
+15,Dealer 015,3,North,Uttar Pradesh,Tier 1,Gold
+16,Dealer 016,3,North,Uttar Pradesh,Metro,Platinum
+17,Dealer 017,4,North,Uttar Pradesh,Tier 2,Gold
+18,Dealer 018,4,North,Uttar Pradesh,Tier 2,Gold
+19,Dealer 019,4,North,Uttar Pradesh,Tier 1,Silver
+20,Dealer 020,4,North,Uttar Pradesh,Tier 2,Silver
+21,Dealer 021,4,North,Uttar Pradesh,Tier 1,Gold
+22,Dealer 022,5,North,Punjab,Metro,Platinum
+23,Dealer 023,5,North,Punjab,Tier 2,Silver
+24,Dealer 024,5,North,Punjab,Tier 2,Silver
+25,Dealer 025,5,North,Punjab,Tier 2,Gold
+26,Dealer 026,5,North,Punjab,Metro,Platinum
+27,Dealer 027,5,North,Punjab,Tier 1,Silver
+28,Dealer 028,6,North,Rajasthan,Tier 2,Silver
+29,Dealer 029,6,North,Rajasthan,Tier 2,Silver
+30,Dealer 030,6,North,Rajasthan,Metro,Gold
+31,Dealer 031,6,North,Rajasthan,Metro,Gold
+32,Dealer 032,6,North,Rajasthan,Tier 3,Gold
+33,Dealer 033,6,North,Rajasthan,Metro,Gold
+34,Dealer 034,7,North,Haryana,Tier 2,Silver
+35,Dealer 035,7,North,Haryana,Tier 2,Silver
+36,Dealer 036,7,North,Haryana,Tier 2,Gold
+37,Dealer 037,7,North,Haryana,Metro,Platinum
+38,Dealer 038,7,North,Haryana,Tier 2,Platinum
+39,Dealer 039,7,North,Haryana,Metro,Gold
+40,Dealer 040,7,North,Haryana,Metro,Gold
+41,Dealer 041,8,West,Maharashtra,Tier 1,Gold
+42,Dealer 042,8,West,Maharashtra,Tier 2,Gold
+43,Dealer 043,8,West,Maharashtra,Metro,Gold
+44,Dealer 044,8,West,Maharashtra,Tier 3,Platinum
+45,Dealer 045,8,West,Maharashtra,Tier 2,Silver
+46,Dealer 046,8,West,Maharashtra,Tier 3,Gold
+47,Dealer 047,9,West,Maharashtra,Tier 1,Gold
+48,Dealer 048,9,West,Maharashtra,Tier 3,Platinum
+49,Dealer 049,9,West,Maharashtra,Metro,Gold
+50,Dealer 050,9,West,Maharashtra,Tier 2,Gold
+51,Dealer 051,9,West,Maharashtra,Tier 3,Platinum
+52,Dealer 052,10,West,Gujarat,Tier 1,Silver
+53,Dealer 053,10,West,Gujarat,Tier 2,Silver
+54,Dealer 054,10,West,Gujarat,Metro,Silver
+55,Dealer 055,10,West,Gujarat,Metro,Gold
+56,Dealer 056,10,West,Gujarat,Tier 1,Gold
+57,Dealer 057,10,West,Gujarat,Metro,Platinum
+58,Dealer 058,10,West,Gujarat,Metro,Silver
+59,Dealer 059,11,West,Gujarat,Tier 2,Gold
+60,Dealer 060,11,West,Gujarat,Tier 3,Platinum
+61,Dealer 061,11,West,Gujarat,Tier 2,Gold
+62,Dealer 062,11,West,Gujarat,Tier 1,Platinum
+63,Dealer 063,11,West,Gujarat,Tier 3,Gold
+64,Dealer 064,11,West,Gujarat,Tier 1,Silver
+65,Dealer 065,11,West,Gujarat,Tier 1,Gold
+66,Dealer 066,12,West,Madhya Pradesh,Metro,Gold
+67,Dealer 067,12,West,Madhya Pradesh,Tier 3,Silver
+68,Dealer 068,12,West,Madhya Pradesh,Tier 2,Platinum
+69,Dealer 069,12,West,Madhya Pradesh,Tier 2,Platinum
+70,Dealer 070,12,West,Madhya Pradesh,Tier 2,Gold
+71,Dealer 071,12,West,Madhya Pradesh,Tier 2,Silver
+72,Dealer 072,13,West,Goa,Metro,Gold
+73,Dealer 073,13,West,Goa,Tier 1,Silver
+74,Dealer 074,13,West,Goa,Tier 2,Silver
+75,Dealer 075,13,West,Goa,Tier 3,Gold
+76,Dealer 076,13,West,Goa,Tier 1,Gold
+77,Dealer 077,13,West,Goa,Tier 3,Gold
+78,Dealer 078,14,South,Tamil Nadu,Tier 1,Platinum
+79,Dealer 079,14,South,Tamil Nadu,Tier 3,Silver
+80,Dealer 080,14,South,Tamil Nadu,Tier 3,Silver
+81,Dealer 081,14,South,Tamil Nadu,Tier 1,Silver
+82,Dealer 082,15,South,Tamil Nadu,Tier 1,Silver
+83,Dealer 083,15,South,Tamil Nadu,Tier 2,Platinum
+84,Dealer 084,15,South,Tamil Nadu,Tier 3,Gold
+85,Dealer 085,15,South,Tamil Nadu,Metro,Gold
+86,Dealer 086,16,South,Karnataka,Metro,Platinum
+87,Dealer 087,16,South,Karnataka,Tier 3,Silver
+88,Dealer 088,16,South,Karnataka,Tier 1,Platinum
+89,Dealer 089,16,South,Karnataka,Tier 3,Silver
+90,Dealer 090,16,South,Karnataka,Metro,Gold
+91,Dealer 091,16,South,Karnataka,Metro,Platinum
+92,Dealer 092,16,South,Karnataka,Tier 2,Platinum
+93,Dealer 093,17,South,Karnataka,Tier 2,Silver
+94,Dealer 094,17,South,Karnataka,Tier 2,Platinum
+95,Dealer 095,17,South,Karnataka,Tier 2,Silver
+96,Dealer 096,17,South,Karnataka,Metro,Platinum
+97,Dealer 097,17,South,Karnataka,Tier 1,Silver
+98,Dealer 098,18,South,Telangana,Tier 2,Gold
+99,Dealer 099,18,South,Telangana,Tier 1,Silver
+100,Dealer 100,18,South,Telangana,Metro,Silver
+101,Dealer 101,18,South,Telangana,Tier 2,Silver
+102,Dealer 102,18,South,Telangana,Metro,Platinum
+103,Dealer 103,19,South,Andhra Pradesh,Tier 3,Silver
+104,Dealer 104,19,South,Andhra Pradesh,Tier 1,Silver
+105,Dealer 105,19,South,Andhra Pradesh,Metro,Silver
+106,Dealer 106,19,South,Andhra Pradesh,Tier 2,Platinum
+107,Dealer 107,20,South,Kerala,Tier 1,Gold
+108,Dealer 108,20,South,Kerala,Tier 3,Silver
+109,Dealer 109,20,South,Kerala,Tier 1,Silver
+110,Dealer 110,20,South,Kerala,Tier 1,Gold
+111,Dealer 111,20,South,Kerala,Tier 3,Silver
+112,Dealer 112,20,South,Kerala,Metro,Gold
+113,Dealer 113,20,South,Kerala,Tier 2,Gold
+114,Dealer 114,21,East,West Bengal,Tier 2,Platinum
+115,Dealer 115,21,East,West Bengal,Tier 2,Platinum
+116,Dealer 116,21,East,West Bengal,Metro,Gold
+117,Dealer 117,21,East,West Bengal,Metro,Silver
+118,Dealer 118,21,East,West Bengal,Metro,Gold
+119,Dealer 119,21,East,West Bengal,Metro,Platinum
+120,Dealer 120,21,East,West Bengal,Metro,Platinum
+121,Dealer 121,22,East,Odisha,Tier 2,Silver
+122,Dealer 122,22,East,Odisha,Tier 1,Gold
+123,Dealer 123,22,East,Odisha,Tier 3,Gold
+124,Dealer 124,22,East,Odisha,Metro,Silver
+125,Dealer 125,23,East,Bihar,Tier 2,Gold
+126,Dealer 126,23,East,Bihar,Metro,Gold
+127,Dealer 127,23,East,Bihar,Tier 1,Gold
+128,Dealer 128,23,East,Bihar,Tier 2,Platinum
+129,Dealer 129,23,East,Bihar,Tier 3,Platinum
+130,Dealer 130,23,East,Bihar,Tier 2,Platinum
+131,Dealer 131,23,East,Bihar,Tier 3,Silver
+132,Dealer 132,24,East,Jharkhand,Tier 2,Silver
+133,Dealer 133,24,East,Jharkhand,Metro,Silver
+134,Dealer 134,24,East,Jharkhand,Tier 1,Gold
+135,Dealer 135,24,East,Jharkhand,Tier 1,Silver
+136,Dealer 136,24,East,Jharkhand,Tier 2,Gold
+137,Dealer 137,24,East,Jharkhand,Metro,Gold
+138,Dealer 138,24,East,Jharkhand,Tier 1,Gold
+139,Dealer 139,25,East,Assam,Tier 1,Gold
+140,Dealer 140,25,East,Assam,Tier 2,Gold
+141,Dealer 141,25,East,Assam,Tier 3,Gold
+142,Dealer 142,25,East,Assam,Tier 1,Silver
+143,Dealer 143,25,East,Assam,Tier 1,Gold

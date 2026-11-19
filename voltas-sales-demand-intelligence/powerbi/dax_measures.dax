@@ -1,0 +1,124 @@
+// =====================================================================
+// Voltas Sales & Demand Intelligence - DAX measures
+// Create a blank table called _Measures and paste each measure into it.
+// Relationships assumed (see powerbi_build_guide.md):
+//   dim_calendar[date]          1 -> * fact_sales[invoice_date]
+//   dim_product[product_id]     1 -> * fact_sales[product_id]
+//   dim_dealer[dealer_id]       1 -> * fact_sales[dealer_id]
+//   dim_distributor[distributor_id] 1 -> * dim_dealer[distributor_id]
+//   dim_month[month]            1 -> * fact_targets[month], fact_inventory[month], forecast_2026[month]
+//   dim_region[region]          1 -> * dim_dealer, fact_targets, fact_inventory, forecast_2026
+//   dim_category[category]      1 -> * dim_product, fact_targets, forecast_2026
+// =====================================================================
+
+// ---------------------------------------------------------- Sales core
+Net Revenue = SUM ( fact_sales[net_revenue] )
+Net Revenue Cr = DIVIDE ( [Net Revenue], 1e7 )
+Units Sold = SUM ( fact_sales[units] )
+Gross Margin = SUM ( fact_sales[gross_margin] )
+Gross Margin % = DIVIDE ( [Gross Margin], [Net Revenue] )
+Avg Discount % = AVERAGE ( fact_sales[discount_pct] )
+Avg Selling Price = DIVIDE ( [Net Revenue], [Units Sold] )
+Active Dealers = DISTINCTCOUNT ( fact_sales[dealer_id] )
+Invoices = DISTINCTCOUNT ( fact_sales[invoice_id] )
+
+// ---------------------------------------------------------- Time intelligence
+Revenue LY = CALCULATE ( [Net Revenue], SAMEPERIODLASTYEAR ( dim_calendar[date] ) )
+Revenue YoY % = DIVIDE ( [Net Revenue] - [Revenue LY], [Revenue LY] )
+Revenue YTD = TOTALYTD ( [Net Revenue], dim_calendar[date] )
+Revenue FYTD = TOTALYTD ( [Net Revenue], dim_calendar[date], "03-31" )   // Indian FY Apr-Mar
+Revenue MTD = TOTALMTD ( [Net Revenue], dim_calendar[date] )
+Revenue 3M Rolling =
+    CALCULATE ( [Net Revenue],
+        DATESINPERIOD ( dim_calendar[date], MAX ( dim_calendar[date] ), -3, MONTH ) )
+Units LY = CALCULATE ( [Units Sold], SAMEPERIODLASTYEAR ( dim_calendar[date] ) )
+Units YoY % = DIVIDE ( [Units Sold] - [Units LY], [Units LY] )
+
+// ---------------------------------------------------------- Targets
+Target Revenue = SUM ( fact_targets[target_revenue] )
+Target Achievement % = DIVIDE ( [Net Revenue], [Target Revenue] )
+Target Gap = [Net Revenue] - [Target Revenue]
+Target Status =
+    SWITCH ( TRUE (),
+        ISBLANK ( [Target Revenue] ), BLANK (),
+        [Target Achievement %] >= 1,   "Achieved",
+        [Target Achievement %] >= 0.9, "Near",
+        "Missed" )
+Target Status Colour =
+    SWITCH ( [Target Status], "Achieved", "#2E8B57", "Near", "#E8A33A", "Missed", "#D9534F", "#999999" )
+
+// ---------------------------------------------------------- Channel
+Dealer Rank =
+    IF ( HASONEVALUE ( dim_dealer[dealer_name] ),
+        RANKX ( ALLSELECTED ( dim_dealer[dealer_name] ), [Net Revenue], , DESC, DENSE ) )
+Revenue Share % = DIVIDE ( [Net Revenue], CALCULATE ( [Net Revenue], ALLSELECTED ( dim_dealer ) ) )
+Revenue per Dealer = DIVIDE ( [Net Revenue], [Active Dealers] )
+Declining Dealers =
+    COUNTROWS (
+        FILTER ( VALUES ( dim_dealer[dealer_id] ),
+            [Revenue LY] > 0 && DIVIDE ( [Net Revenue], [Revenue LY] ) < 0.85 ) )
+Pareto Cumulative % =
+    VAR curRev = [Net Revenue]
+    VAR tbl = ADDCOLUMNS ( ALLSELECTED ( dim_dealer[dealer_name] ), "@rev", [Net Revenue] )
+    RETURN DIVIDE ( SUMX ( FILTER ( tbl, [@rev] >= curRev ), [@rev] ), SUMX ( tbl, [@rev] ) )
+
+// ---------------------------------------------------------- Seasonality
+Seasonality Index =
+    VAR monthUnits = [Units Sold]
+    VAR avgMonth =
+        AVERAGEX ( ALL ( dim_calendar[month_name], dim_calendar[month_num] ),
+                   CALCULATE ( [Units Sold] ) )
+    RETURN DIVIDE ( monthUnits, avgMonth )
+Peak Season Revenue % =
+    DIVIDE ( CALCULATE ( [Net Revenue], dim_calendar[season] = "Summer (Peak)" ), [Net Revenue] )
+
+// ---------------------------------------------------------- Inventory
+Closing Stock = SUM ( fact_inventory[closing_stock] )
+Inv Units Sold = SUM ( fact_inventory[units_sold] )
+Lost Sales Units = SUM ( fact_inventory[lost_sales_units] )
+True Demand = [Inv Units Sold] + [Lost Sales Units]
+Fill Rate % = DIVIDE ( [Inv Units Sold], [True Demand] )
+Days of Cover = DIVIDE ( [Closing Stock], [Inv Units Sold] ) * 30
+Stock Value =
+    SUMX ( fact_inventory, fact_inventory[closing_stock] * RELATED ( dim_product[unit_cost] ) )
+Lost Revenue Est =
+    SUMX ( fact_inventory, fact_inventory[lost_sales_units] * RELATED ( dim_product[list_price] ) )
+Stock-out SKU Months = CALCULATE ( COUNTROWS ( fact_inventory ), fact_inventory[lost_sales_units] > 0 )
+Overstock SKU Months =
+    COUNTROWS ( FILTER ( fact_inventory,
+        fact_inventory[closing_stock] > 2 * fact_inventory[units_sold] ) )
+
+// ---------------------------------------------------------- Forecast
+Forecast Units = SUM ( forecast_2026[forecast_units] )
+Forecast Lower 80 = SUM ( forecast_2026[lower_80] )
+Forecast Upper 80 = SUM ( forecast_2026[upper_80] )
+Backtest Actual = SUM ( forecast_backtest[actual] )
+Backtest Ensemble = SUM ( forecast_backtest[Ensemble] )
+Backtest Naive = SUM ( forecast_backtest[Seasonal Naive] )
+WAPE Ensemble =
+    DIVIDE ( SUMX ( forecast_backtest, ABS ( forecast_backtest[actual] - forecast_backtest[Ensemble] ) ),
+             [Backtest Actual] )
+WAPE Naive =
+    DIVIDE ( SUMX ( forecast_backtest, ABS ( forecast_backtest[actual] - forecast_backtest[Seasonal Naive] ) ),
+             [Backtest Actual] )
+Forecast Accuracy Gain pp = ( [WAPE Naive] - [WAPE Ensemble] ) * 100
+
+// What-if parameter: create via Modeling > New parameter > Numeric range
+// Name: Service Level, 0.80 to 0.99, step 0.01, default 0.95  -> generates 'Service Level'[Service Level Value]
+Z Score = NORM.S.INV ( SELECTEDVALUE ( 'Service Level'[Service Level Value], 0.95 ) )
+Safety Stock =
+    SUMX ( forecast_2026,
+        [Z Score] * forecast_2026[forecast_units]
+            * LOOKUPVALUE ( model_accuracy[wape],
+                model_accuracy[region], forecast_2026[region],
+                model_accuracy[category], forecast_2026[category],
+                model_accuracy[model], "Ensemble" ) )
+Order Up To Level = [Forecast Units] + [Safety Stock]
+
+// ---------------------------------------------------------- Policy simulation
+Sim Lost Actual = SUM ( policy_simulation[lost_units_actual] )
+Sim Lost Forecast = SUM ( policy_simulation[lost_units_forecast] )
+Sim Lost Reduction % = 1 - DIVIDE ( [Sim Lost Forecast], [Sim Lost Actual] )
+Sim Stock Value Actual Cr = DIVIDE ( SUM ( policy_simulation[avg_stock_value_actual] ), 1e7 )
+Sim Stock Value Forecast Cr = DIVIDE ( SUM ( policy_simulation[avg_stock_value_forecast] ), 1e7 )
+Sim Capital Released Cr = [Sim Stock Value Actual Cr] - [Sim Stock Value Forecast Cr]

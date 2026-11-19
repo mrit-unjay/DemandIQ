@@ -1,0 +1,26 @@
+distributor_id,distributor_name,region,state,onboarded_date,credit_limit_lakh
+1,Delhi Distributors 1,North,Delhi,2018-05-14,150
+2,Delhi Distributors 2,North,Delhi,2019-10-21,100
+3,Uttar Pradesh Distributors 1,North,Uttar Pradesh,2021-02-13,50
+4,Uttar Pradesh Distributors 2,North,Uttar Pradesh,2019-12-02,100
+5,Punjab Distributors 1,North,Punjab,2018-12-26,100
+6,Rajasthan Distributors 1,North,Rajasthan,2018-07-29,150
+7,Haryana Distributors 1,North,Haryana,2021-07-07,75
+8,Maharashtra Distributors 1,West,Maharashtra,2019-03-17,75
+9,Maharashtra Distributors 2,West,Maharashtra,2019-01-31,150
+10,Gujarat Distributors 1,West,Gujarat,2020-12-11,50
+11,Gujarat Distributors 2,West,Gujarat,2019-03-26,150
+12,Madhya Pradesh Distributors 1,West,Madhya Pradesh,2020-05-21,100
+13,Goa Distributors 1,West,Goa,2019-04-27,50
+14,Tamil Nadu Distributors 1,South,Tamil Nadu,2021-10-06,50
+15,Tamil Nadu Distributors 2,South,Tamil Nadu,2019-12-06,75
+16,Karnataka Distributors 1,South,Karnataka,2021-03-04,50
+17,Karnataka Distributors 2,South,Karnataka,2021-12-24,50
+18,Telangana Distributors 1,South,Telangana,2020-01-30,150
+19,Andhra Pradesh Distributors 1,South,Andhra Pradesh,2021-01-28,75
+20,Kerala Distributors 1,South,Kerala,2021-12-20,75
+21,West Bengal Distributors 1,East,West Bengal,2021-06-15,150
+22,Odisha Distributors 1,East,Odisha,2018-06-07,150
+23,Bihar Distributors 1,East,Bihar,2020-01-10,50
+24,Jharkhand Distributors 1,East,Jharkhand,2018-12-22,75
+25,Assam Distributors 1,East,Assam,2020-06-25,50
